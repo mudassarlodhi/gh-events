@@ -1,0 +1,8 @@
+name: Hello Job Workflow
+on: workflow_dispatch
+jobs:
+  hello_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event data
+        run: echo "Hello"
