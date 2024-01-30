@@ -5,6 +5,13 @@ on:
       - opened
       - edited
       - closed
+  push:
+    branches:
+      - main
+      - dev-*
+      - fix-bug-*
+      - feat/*
+      - feature/**
   workflow_dispatch:
 jobs:
   deploy:
