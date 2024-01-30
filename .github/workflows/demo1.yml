@@ -5,6 +5,9 @@ on:
       - opened
       - edited
       - closed
+    branches:
+      - main
+      - dev-*
   push:
     branches:
       - main
@@ -12,6 +15,8 @@ on:
       - fix-bug-*
       - feat/*
       - feature/**
+    paths-ignore:
+      - ".github/workflows/*"
   workflow_dispatch:
 jobs:
   deploy:
