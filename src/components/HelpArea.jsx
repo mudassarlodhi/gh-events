@@ -17,6 +17,11 @@ const HELP_ITEMS = [
     title: 'What is GitHub Actions?',
     text: 'GitHub Actions is an automation service (or CI / CD service) that helps you automate repository-related workflows and processes.',
   },
+  {
+    id: 'h4',
+    title: 'Random Text',
+    text: 'GitHub Actions is an automation service (or CI / CD service) that helps you automate repository-related workflows and processes.',
+  },
 ];
 
 function HelpArea() {
