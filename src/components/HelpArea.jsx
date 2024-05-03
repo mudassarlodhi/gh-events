@@ -26,7 +26,7 @@ const HELP_ITEMS = [
 
 function HelpArea() {
   return (
-    <section data-testid="help-area" id="help-area" className="help-areaa">
+    <section data-testid="help-area" id="help-area" className="help-areaaa">
       {HELP_ITEMS?.map((item) => (
         <HelpBox key={item.id} title={item.title} text={item.text} />
       ))}
