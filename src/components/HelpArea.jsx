@@ -17,12 +17,17 @@ const HELP_ITEMS = [
     title: 'What is GitHub Actions?',
     text: 'GitHub Actions is an automation service (or CI / CD service) that helps you automate repository-related workflows and processes.',
   },
+  {
+    id: 'h4',
+    title: 'Random Text',
+    text: 'GitHub Actions is an automation service (or CI / CD service) that helps you automate repository-related workflows and processes.',
+  },
 ];
 
 function HelpArea() {
   return (
-    <section data-testid="help-area" id="help-area">
-      {HELP_ITEMS?.map((item) => (
+    <section data-testid="help-area" id="help-area" className="help-areax">
+      {HELP_ITEMS.map((item) => (
         <HelpBox key={item.id} title={item.title} text={item.text} />
       ))}
     </section>
