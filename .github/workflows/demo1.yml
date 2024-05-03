@@ -5,6 +5,7 @@ on:
       - opened
       - edited
       - closed
+      - synchronize
     branches:
       - main
       - dev-*
